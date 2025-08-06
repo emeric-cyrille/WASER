@@ -2,6 +2,8 @@
 
 A novel approach for measuring distances between embedding representation spaces using spectral perturbation theory and optimal transport.
 
+![Database Schema](illus_waser.png)
+
 ## Overview
 
 WASER introduces a principled method to quantify geometric transformations in embedding spaces when representations of a target language are influenced by different source languages or models. This research addresses the fundamental question: *How much do embedding representations change when the same corpus is embedded using different multilingual models or source languages?*
@@ -18,6 +20,7 @@ This work emerges from observations in multilingual embedding models where repre
 1. **Model embedding spaces** as vector subspaces characterized by their covariance matrices
 2. **Quantify geometric deformations** using eigenvalue decomposition and spectral analysis
 3. **Measure distances** between representation spaces using optimal transport theory
+![Database Schema](workflow_waser.png)
 
 ## Key Features
 
