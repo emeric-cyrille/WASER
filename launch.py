@@ -1,5 +1,5 @@
 
-from spectral_wassertein_distance import WASER
+from waser import WASER
 
 def main():
     """
